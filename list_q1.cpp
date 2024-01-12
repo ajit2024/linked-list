@@ -3,10 +3,12 @@
 using namespace std;
 
 static int c=1;
+
 class node
 {
     int data;
     node* link;
+
 public:
     node(int d):data(d),link(nullptr){}
     friend void addnode(int data,node* &head);
